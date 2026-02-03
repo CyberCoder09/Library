@@ -1,6 +1,5 @@
 from models import Book
 
-
 def main(): 
     book_ISBN = input("Enter the book ISBN: ") 
     book_title = input("Enter the title of the book: ")
@@ -18,6 +17,5 @@ def main():
     
     book_obj.view_book()
    
-
 if "__name__" == "__main__":
     main()
